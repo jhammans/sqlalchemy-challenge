@@ -1,3 +1,6 @@
+"""
+This script sets up a Flask application to provide API endpoints for temperature statistics.
+"""
 # Import the dependencies.
 from datetime import datetime
 from sqlalchemy.ext.automap import automap_base
@@ -38,11 +41,11 @@ def welcome():
     return (
         "<h1>Available Routes:</h1>"
         "<ul>"
-        "<li>/api/v1.0/precipitation</li>"
-        "<li>/api/v1.0/stations</li>"
-        "<li>/api/v1.0/tobs</li>"
-        "<li>/api/v1.0/&lt;start&gt;</li>"
-        "<li>/api/v1.0/&lt;start&gt;/&lt;end&gt;</li>"
+            "<li>/api/v1.0/precipitation</li>"
+            "<li>/api/v1.0/stations</li>"
+            "<li>/api/v1.0/tobs</li>"
+            "<li>/api/v1.0/&lt;start&gt;</li>"
+            "<li>/api/v1.0/&lt;start&gt;/&lt;end&gt;</li>"
         "</ul>"
     )
 
