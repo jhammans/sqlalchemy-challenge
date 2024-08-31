@@ -13,7 +13,8 @@ This project aims to analyze and explore the climate data for Honolulu, Hawaii, 
 - Precipitation Route (/api/v1.0/precipitation): Returns JSON data of the last 12 months of precipitation, with dates as keys and precipitation levels as values.
 - Stations Route (/api/v1.0/stations): Returns a JSON list of all weather stations in the dataset.
 - Temperature Observations Route (/api/v1.0/tobs): Provides temperature observations from the most active station for the previous year.
-- Temperature Summary Routes (/api/v1.0/<start> and /api/v1.0/<start>/<end>): Returns a JSON list of the minimum, average, and maximum temperatures for a specified date range.
+- Temperature Summary Routes (`/api/v1.0/<start>` and `/api/v1.0/<start>/<end>`): Returns a JSON list of the minimum, average, and maximum temperatures for a specified date range.
+
 
 ## Project Structure:
 The repository is organized as follows:
